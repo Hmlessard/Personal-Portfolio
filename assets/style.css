@@ -88,6 +88,8 @@ li {
 
 /*Work project pages*/
 .container{
+    width: 75%;
+    height: fit-content;
     display: flex;
     padding: 10%; 
     flex-wrap: wrap;   
@@ -96,20 +98,26 @@ li {
 .child{
     flex: 50%;
     padding: 40px;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .child img{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 
 #big-pic{
+    position: relative;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 #contact-me{
     display: flex;
     padding: 10%;
